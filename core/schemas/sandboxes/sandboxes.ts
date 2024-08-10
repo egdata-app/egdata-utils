@@ -33,5 +33,8 @@ export const SandboxSchema = new mongoose.Schema({
   countriesBlacklist: { type: [String], required: false },
 });
 
-export const Sandbox = mongoose.model('Sandbox', SandboxSchema);
-export type SandboxType = typeof Sandbox;
+export const Sandbox = mongoose.model(
+  'Sandbox',
+  SandboxSchema as mongoose.Schema<typeof SandboxSchema>
+);
+export type SandboxType = mongoose.InferSchemaType<typeof SandboxSchema>;
