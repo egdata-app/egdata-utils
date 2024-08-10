@@ -12,58 +12,42 @@
     "envs/basic-env": {
         "name": "envs/basic-env",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "egdata.core",
         "mainFile": "index.ts",
-        "rootDir": "core/envs/basic-env",
-        "config": {
-            "teambit.envs/env": {},
-            "teambit.envs/envs": {
-                "env": "teambit.envs/env"
-            }
-        }
+        "rootDir": "core/envs/basic-env"
     },
     "schemas/images": {
         "name": "schemas/images",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "egdata.core",
         "mainFile": "index.ts",
-        "rootDir": "core/schemas/images",
-        "config": {
-            "bitdev.node/node-env@2.0.26": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.node/node-env"
-            }
-        }
+        "rootDir": "core/schemas/images"
     },
     "schemas/offers": {
         "name": "schemas/offers",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "egdata.core",
         "mainFile": "index.ts",
-        "rootDir": "core/schemas/offers",
-        "config": {
-            "egdata.core/envs/basic-env": {},
-            "teambit.envs/envs": {
-                "env": "egdata.core/envs/basic-env"
-            }
-        }
+        "rootDir": "core/schemas/offers"
+    },
+    "schemas/sandboxes": {
+        "name": "schemas/sandboxes",
+        "scope": "",
+        "version": "0.0.1",
+        "defaultScope": "egdata.core",
+        "mainFile": "index.ts",
+        "rootDir": "core/schemas/sandboxes"
     },
     "schemas/tags": {
         "name": "schemas/tags",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "egdata.core",
         "mainFile": "index.ts",
-        "rootDir": "core/schemas/tags",
-        "config": {
-            "bitdev.node/node-env@2.0.26": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.node/node-env"
-            }
-        }
+        "rootDir": "core/schemas/tags"
     },
     "$schema-version": "17.0.0"
 }
