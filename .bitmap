@@ -12,35 +12,35 @@
     "envs/basic-env": {
         "name": "envs/basic-env",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "cfd904085b89844ae45e03c96edabfc8bb30aa07",
         "mainFile": "index.ts",
         "rootDir": "core/envs/basic-env"
     },
     "schemas/images": {
         "name": "schemas/images",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "f0dbc6b0c957c080a4d0b0c1dc049f25e72f0ddc",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/images"
     },
     "schemas/offers": {
         "name": "schemas/offers",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "8a6f468d5bb80020ba9a6180c5207f68b71df944",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/offers"
     },
     "schemas/sandboxes": {
         "name": "schemas/sandboxes",
         "scope": "egdata.core",
-        "version": "0.0.2",
+        "version": "50e035633dd0f9b36941926c744bcea740ba59ed",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/sandboxes"
     },
     "schemas/tags": {
         "name": "schemas/tags",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "05fde0e1379e0eb950c22bc022089bc3ebfd886c",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/tags"
     },
