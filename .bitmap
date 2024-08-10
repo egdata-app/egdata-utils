@@ -11,41 +11,36 @@
 {
     "envs/basic-env": {
         "name": "envs/basic-env",
-        "scope": "",
+        "scope": "egdata.core",
         "version": "0.0.1",
-        "defaultScope": "egdata.core",
         "mainFile": "index.ts",
         "rootDir": "core/envs/basic-env"
     },
     "schemas/images": {
         "name": "schemas/images",
-        "scope": "",
+        "scope": "egdata.core",
         "version": "0.0.1",
-        "defaultScope": "egdata.core",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/images"
     },
     "schemas/offers": {
         "name": "schemas/offers",
-        "scope": "",
+        "scope": "egdata.core",
         "version": "0.0.1",
-        "defaultScope": "egdata.core",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/offers"
     },
     "schemas/sandboxes": {
         "name": "schemas/sandboxes",
-        "scope": "",
+        "scope": "egdata.core",
         "version": "0.0.2",
-        "defaultScope": "egdata.core",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/sandboxes"
     },
     "schemas/tags": {
         "name": "schemas/tags",
-        "scope": "",
+        "scope": "egdata.core",
         "version": "0.0.1",
-        "defaultScope": "egdata.core",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/tags"
     },
