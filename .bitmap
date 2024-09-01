@@ -12,105 +12,133 @@
     "envs/basic-env": {
         "name": "envs/basic-env",
         "scope": "egdata.core",
-        "version": "0.0.2",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/envs/basic-env"
     },
     "schemas/achievements": {
         "name": "schemas/achievements",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/achievements"
     },
     "schemas/assets": {
         "name": "schemas/assets",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/assets"
+    },
+    "schemas/bundles": {
+        "name": "schemas/bundles",
+        "scope": "egdata.core",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "core/schemas/bundles"
     },
     "schemas/changelog": {
         "name": "schemas/changelog",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/changelog"
     },
     "schemas/collections": {
         "name": "schemas/collections",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/collections"
     },
     "schemas/free-games": {
         "name": "schemas/free-games",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/free-games"
+    },
+    "schemas/hltb": {
+        "name": "schemas/hltb",
+        "scope": "egdata.core",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "core/schemas/hltb"
     },
     "schemas/images": {
         "name": "schemas/images",
         "scope": "egdata.core",
-        "version": "0.0.2",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/images"
     },
     "schemas/items": {
         "name": "schemas/items",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/items"
     },
     "schemas/mappings": {
         "name": "schemas/mappings",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/mappings"
     },
     "schemas/media": {
         "name": "schemas/media",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/media"
     },
     "schemas/namespace": {
         "name": "schemas/namespace",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/namespace"
     },
     "schemas/offers": {
         "name": "schemas/offers",
         "scope": "egdata.core",
-        "version": "0.0.2",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/offers"
     },
     "schemas/price": {
         "name": "schemas/price",
         "scope": "egdata.core",
-        "version": "0.0.1",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/price"
+    },
+    "schemas/ratings": {
+        "name": "schemas/ratings",
+        "scope": "egdata.core",
+        "version": "1.1.3",
+        "mainFile": "index.ts",
+        "rootDir": "core/schemas/ratings"
     },
     "schemas/sandboxes": {
         "name": "schemas/sandboxes",
         "scope": "egdata.core",
-        "version": "0.0.3",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/sandboxes"
+    },
+    "schemas/sellers": {
+        "name": "schemas/sellers",
+        "scope": "egdata.core",
+        "version": "1.1.3",
+        "mainFile": "index.ts",
+        "rootDir": "core/schemas/sellers"
     },
     "schemas/tags": {
         "name": "schemas/tags",
         "scope": "egdata.core",
-        "version": "0.0.2",
+        "version": "1.1.3",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/tags"
     },

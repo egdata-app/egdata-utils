@@ -23,19 +23,18 @@ export const Achievement = new mongoose.Schema(
   { _id: false }
 );
 
-export const AchievementSet = mongoose.model(
-  'AchievementSet',
-  new mongoose.Schema(
-    {
-      _id: { required: true, type: String },
-      productId: { required: true, type: String },
-      sandboxId: { required: true, type: String },
-      achievementSetId: { required: true, type: String },
-      isBase: { required: true, type: Boolean },
-      numProgressed: { required: true, type: Number },
-      numCompleted: { required: true, type: Number },
-      achievements: [Achievement],
-    },
-    { _id: false }
-  )
+const schema = new mongoose.Schema(
+  {
+    _id: { required: true, type: String },
+    productId: { required: true, type: String },
+    sandboxId: { required: true, type: String },
+    achievementSetId: { required: true, type: String },
+    isBase: { required: true, type: Boolean },
+    numProgressed: { required: true, type: Number },
+    numCompleted: { required: true, type: Number },
+    achievements: [Achievement],
+  },
+  { _id: false }
 );
+
+export const AchievementSet = mongoose.model('AchievementSet', schema);

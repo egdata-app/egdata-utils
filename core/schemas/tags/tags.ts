@@ -1,16 +1,18 @@
 import mongoose from 'mongoose';
 
 // for offer schema - needs to be revoked to be just an array of tagIds
-export const Tags = mongoose.model(
-  'Tags',
-  new mongoose.Schema(
-    {
-      id: String,
-      name: String,
-    },
-    { _id: false }
-  )
-);
+export const Tags =
+  mongoose.models.Tags ||
+  mongoose.model(
+    'Tags',
+    new mongoose.Schema(
+      {
+        id: String,
+        name: String,
+      },
+      { _id: false }
+    )
+  );
 
 const TagSchema = new mongoose.Schema({
   id: { type: String, required: true },
