@@ -33,6 +33,10 @@ const CollectionOfferSchema = new mongoose.Schema({
     type: Number,
     required: false,
   },
+  previous: {
+    type: Number,
+    required: false,
+  },
 });
 
 const CollectionsSchema = new mongoose.Schema({

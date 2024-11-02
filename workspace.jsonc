@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://bit.dev/reference/workspace/workspace-json
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -55,16 +55,17 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@teambit/defender.eslint-linter": "^1.0.38",
-        "@teambit/defender.prettier-formatter": "^1.0.18",
+        "@bitdev/node.node-env": "2.0.33",
+        "@teambit/defender.eslint-linter": "^1.0.42",
+        "@teambit/defender.prettier-formatter": "^1.0.20",
         "@teambit/dependencies.modules.packages-excluder": "^1.0.8",
-        "@teambit/preview.react-preview": "^1.0.47",
-        "@teambit/react.react-env": "^1.0.92",
-        "@teambit/toolbox.performance.v8-cache": "^0.0.33",
-        "@teambit/typescript.typescript-compiler": "^2.0.43",
-        "@teambit/vite.vitest-tester": "^0.1.7",
+        "@teambit/preview.react-preview": "^1.0.64",
+        "@teambit/react.react-env": "^1.0.109",
+        "@teambit/toolbox.performance.v8-cache": "^0.0.35",
+        "@teambit/typescript.typescript-compiler": "^2.0.45",
+        "@teambit/vite.vitest-tester": "^0.3.2",
         "find-root": "^1.1.0",
-        "mongoose": "^8.5.2"
+        "mongoose": "^8.8.0"
       },
       "peerDependencies": {}
     },
@@ -73,5 +74,22 @@
   },
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true
+  },
+  "teambit.workspace/variants": {
+    "*": {
+      "teambit.pkg/pkg": {
+        "packageManagerPublishArgs": [
+          "--access=public",
+          "--@egdata:registry=https://registry.npmjs.org/"
+        ],
+        "packageJson": {
+          "private": false,
+          "name": "@egdata/core.{name}",
+          "publishConfig": {
+            "registry": "https://registry.npmjs.org/"
+          }
+        }
+      }
+    }
   }
 }

@@ -8,6 +8,7 @@ export const schema = new mongoose.Schema({
   namespace: { required: true, type: String },
   title: { required: true, type: String },
   description: { required: true, type: String },
+  longDescription: { required: false, type: String},
   offerType: String,
   effectiveDate: Date,
   creationDate: Date,
