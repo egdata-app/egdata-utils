@@ -1,9 +1,14 @@
 import mongoose from 'mongoose';
 
-const CollectionOfferSchema = new mongoose.Schema({
+const GamePositionSchema = new mongoose.Schema({
   _id: {
     type: String,
     required: true,
+  },
+  collectionId: {
+    type: String,
+    required: true,
+    index: true,
   },
   position: {
     type: Number,
@@ -11,34 +16,49 @@ const CollectionOfferSchema = new mongoose.Schema({
   },
   timesInTop1: {
     type: Number,
-    required: false,
+    default: 0,
   },
   timesInTop5: {
     type: Number,
-    required: false,
+    default: 0,
   },
   timesInTop10: {
     type: Number,
-    required: false,
+    default: 0,
   },
   timesInTop20: {
     type: Number,
-    required: false,
+    default: 0,
   },
   timesInTop50: {
     type: Number,
-    required: false,
+    default: 0,
   },
   timesInTop100: {
     type: Number,
-    required: false,
+    default: 0,
   },
   previous: {
     type: Number,
-    required: false,
+    default: null,
   },
+  positions: [{
+    date: {
+      type: Date,
+      required: true,
+    },
+    position: {
+      type: Number,
+      required: true,
+    }
+  }],
+  lastUpdated: {
+    type: Date,
+    required: true,
+  }
 });
 
+// Schema for collections metadata
 const CollectionsSchema = new mongoose.Schema({
   _id: {
     type: String,
@@ -56,18 +76,23 @@ const CollectionsSchema = new mongoose.Schema({
     type: Date,
     required: true,
   },
-  offers: {
-    type: [CollectionOfferSchema],
+  postDate: {
+    type: Date,
     required: true,
   },
 });
 
-export const CollectionOffer = mongoose.model(
-  'CollectionOffer',
-  CollectionsSchema,
-  'collections'
-);
 
-export type CollectionOfferType = mongoose.InferSchemaType<
-  typeof CollectionOfferSchema
->;
+// Export models
+export const GamePosition = mongoose.model('GamePosition', GamePositionSchema, 'game_positions');
+export const Collection = mongoose.model('Collection', CollectionsSchema, 'collections_v2');
+
+// Export types
+export type GamePositionType = mongoose.InferSchemaType<typeof GamePositionSchema>;
+export type CollectionType = mongoose.InferSchemaType<typeof CollectionsSchema>;
+
+// Type for position history entries
+export interface PositionEntry {
+  date: Date;
+  position: number;
+}

@@ -1,6 +1,6 @@
 // bit-generated-typescript-config
 {
-  "extends": "./node_modules/.cache/tsconfig.bit.75e1b91c5e0969c230d5abc4b5844b8ad9fa43c3.json",
+  "extends": "./node_modules/.cache/tsconfig.bit.492c2e4eebbdc7a9bf714af635676ba1c40f2dee.json",
   "compilerOptions": {
     "typeRoots": [
       "./node_modules/.cache/global-types",
