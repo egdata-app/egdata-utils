@@ -55,17 +55,17 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@bitdev/node.node-env": "2.0.33",
-        "@teambit/defender.eslint-linter": "^1.0.42",
+        "@bitdev/node.node-env": "2.0.40",
+        "@teambit/defender.eslint-linter": "^1.0.43",
         "@teambit/defender.prettier-formatter": "^1.0.20",
         "@teambit/dependencies.modules.packages-excluder": "^1.0.8",
-        "@teambit/preview.react-preview": "^1.0.64",
-        "@teambit/react.react-env": "^1.0.109",
-        "@teambit/toolbox.performance.v8-cache": "^0.0.35",
-        "@teambit/typescript.typescript-compiler": "^2.0.45",
-        "@teambit/vite.vitest-tester": "^0.3.2",
+        "@teambit/preview.react-preview": "^1.0.66",
+        "@teambit/react.react-env": "^1.0.111",
+        "@teambit/toolbox.performance.v8-cache": "^0.0.37",
+        "@teambit/typescript.typescript-compiler": "^2.0.47",
+        "@teambit/vite.vitest-tester": "^0.3.4",
         "find-root": "^1.1.0",
-        "mongoose": "^8.8.0"
+        "mongoose": "^8.9.2"
       },
       "peerDependencies": {}
     },

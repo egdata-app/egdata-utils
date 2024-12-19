@@ -5,6 +5,7 @@ const FreeGamesSchema = new mongoose.Schema({
   namespace: { type: String, required: true },
   startDate: { type: Date, required: true },
   endDate: { type: Date, required: true },
+  title: { type: String, required: false },
 });
 
 export const FreeGames = mongoose.model('FreeGames', FreeGamesSchema);
