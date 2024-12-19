@@ -40,7 +40,7 @@
     "schemas/collections": {
         "name": "schemas/collections",
         "scope": "egdata.core",
-        "version": "2.0.1",
+        "version": "2.0.2",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/collections"
     },

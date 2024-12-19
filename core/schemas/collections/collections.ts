@@ -1,11 +1,12 @@
 import mongoose from 'mongoose';
 
 const GamePositionSchema = new mongoose.Schema({
-  _id: {
+  collectionId: {
     type: String,
     required: true,
+    index: true,
   },
-  collectionId: {
+  offerId: {
     type: String,
     required: true,
     index: true,
