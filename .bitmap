@@ -12,7 +12,7 @@
     "schemas/achievements": {
         "name": "schemas/achievements",
         "scope": "egdata.core",
-        "version": "2.0.0",
+        "version": "2.0.1",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/achievements"
     },

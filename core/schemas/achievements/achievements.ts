@@ -30,8 +30,8 @@ const schema = new mongoose.Schema(
     sandboxId: { required: true, type: String },
     achievementSetId: { required: true, type: String },
     isBase: { required: true, type: Boolean },
-    numProgressed: { required: true, type: Number },
-    numCompleted: { required: true, type: Number },
+    numProgressed: { required: false, type: Number },
+    numCompleted: { required: false, type: Number },
     achievements: [Achievement],
   },
   { _id: false }
