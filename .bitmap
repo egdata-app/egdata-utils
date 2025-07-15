@@ -96,7 +96,7 @@
     "schemas/offers": {
         "name": "schemas/offers",
         "scope": "egdata.core",
-        "version": "5.0.0",
+        "version": "5.0.1",
         "mainFile": "index.ts",
         "rootDir": "core/schemas/offers"
     },

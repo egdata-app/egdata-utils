@@ -19,7 +19,7 @@ const offerMappingSchema = new mongoose.Schema({
 
 const customAttributeSchema = new mongoose.Schema({
   key: { required: true, type: String },
-  value: { required: true, type: String },
+  value: { required: false, type: String },
 }, { _id: false });
 
 export const schema = new mongoose.Schema({
